@@ -1,0 +1,88 @@
+body {
+    background-image: url("../images/coffeebackground.jpg");
+    background-size: cover;
+    font-family: Arial;
+}
+.menu {
+    background-color: burlywood;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    padding: 20px;
+}
+.container {
+    text-align: center;
+}
+.established {
+    font-style: italic;
+}
+hr {
+    height: 2px;
+    background-color: brown;
+    width: 90%;
+    border-color: brown;
+   margin-top: 10px
+}
+h1 {
+    font-size: 40px;
+    padding-top: 25px;
+}
+h1, h2 {
+    font-family: Impact ;
+    text-align: center;   
+}
+h2 {
+    font-size: 30px;
+}
+.coffee-logo {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;   
+}
+.coffee-menu {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 10px 20px;
+}
+.Flavor {
+    font-size: 20px;
+}
+.price {
+    font-size: 20px;
+}
+span {
+    color: rgb(13, 84, 13);
+}
+/* Dessert section*/
+.dessert-menu {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 10px 20px;
+}
+/* Footter section*/
+.footer {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+a {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:active {
+    color: white;
+}
+a:hover {
+    color: brown;
+}
+.address {
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+ 
+
+ 

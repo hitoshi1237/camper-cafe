@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <style>
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, #83a4d4, #b6fbff);
+    font-family: Arial, sans-serif;
+}
+.form-container  {
+  background-color: rgb(227, 239, 245);
+  border-radius: 10px;
+  padding: 5px;
+  width: 400px;
+}
+ 
+h2 {
+    text-align: center;
+}
+input, textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+margin-left: 10px;
+}
+label {
+  margin: 10px;
+  color: rgb(0, 136, 255);
+}
+button {
+  background-color: rgb(2, 184, 84);
+  font-size: 1.1em;
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+  color: white;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  display: block;
+  margin: 1em auto;
+  transition: background-color, color, 0.3s ease;
+}
+button:hover {
+  background-color: rgb(7, 215, 83);
+  color: rgb(232, 227, 227);
+}
+    </style>
+</head>
+<body>
+<div class="form-container">
+    <form>
+        <h2>Contact Us</h2>
+        <label for="name">Enter Your Name<input type="text" id="name" name="name" required></label>
+        <label for="email">Enter yout Email<input type="email" id="email" name="email" required></label>
+        <label for="message">Send us Your Message
+            <textarea id="message" name="message" required placeholder="We are here for you..."></textarea></label>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
